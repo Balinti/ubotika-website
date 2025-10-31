@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run build && rm -rf docs && mv build docs"
+    "deploy": "npm run build && rmdir /s /q docs && move build docs"
   },
   "eslintConfig": {
     "extends": [
