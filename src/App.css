@@ -19,6 +19,15 @@ body {
   overflow-x: hidden;
 }
 
+/* App Logo */
+.app-logo {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 40px auto 0;
+  animation: fadeInUp 0.8s ease;
+}
+
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
@@ -300,6 +309,10 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .app-logo {
+    width: 150px;
+  }
+  
   .hero h1 {
     font-size: 3rem;
   }
